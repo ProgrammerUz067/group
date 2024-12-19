@@ -7,7 +7,7 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    text-align: center;
+    // text-align: center;
     gap: 50px;
     -webkit-box-shadow: 12px 12px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 12px 12px 8px 0px rgba(34, 60, 80, 0.2);
@@ -18,9 +18,16 @@
     top: 700px;
     left: 50px;
     right: 50px;
-    .title{
-      font-size: 54px;
-      font-weight: 700;
+    .textWrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      .title{
+        font-size: 54px;
+        font-weight: 700;
+      }
     }
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import MainPage from '../../components/MainPage/MainPage';
 import About from '../../components/About/About';
-import CompanyList from '../../components/CompanyList/CompanyList';
 import Team from '../../components/Team/Team';
 import Goals from '../../components/Goals/Goals';
 import Services from '../../components/Services/Services';
@@ -19,7 +18,6 @@ export default function Home() {
     <div>
       <MainPage />
       <About />
-      <CompanyList />
       <Team />
       <Goals />
       <Services />

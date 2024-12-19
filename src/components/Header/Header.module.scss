@@ -11,13 +11,14 @@
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  // background: #262626;
+    background: #7d7d7d;
   color: #f2f2f2;
   padding-left: 60px;
   padding-right: 67px;
   position: fixed; 
   width: 100%; 
-  z-index: 3;
+  z-index: 102;
+  border-radius: 0px;
 
   ul {
     a {
@@ -28,7 +29,7 @@
         transition: 0.3s;
 
         &:hover {
-          color: #96d966;
+          color: rgb(14, 211, 14);
         }
       }
     }

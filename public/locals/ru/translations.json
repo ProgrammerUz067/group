@@ -15,15 +15,43 @@
     "title": "О нас", 
     "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus quis quibusdam dolorem dolore nisi, animi dicta aliquam possimus labore quos magni cumque! Nihil voluptatem laborum, quis dolore accusantium dolorem corporis blanditiis repudiandae aliquid dicta adipisci, voluptate laboriosam aperiam tempore a harum pariatur amet? Quasi nisi optio quia, sapiente debitis tenetur, a repellat est nemo eveniet non velit blanditiis! Nostrum provident itaque ullam, laboriosam rem quos cum laborum laudantium totam."
   },
-  "directors" : {
-    "title" : "Цифровой маркетинг",
-      "subtitle" : "Это раздел, который  помогает \n  организациям нашей страны \n привлечь  внимание международных \n организаций,  развивая свой профиль \n в интернете на социальных  \nплатформах"
-  },
-  "team" : {
-    "title" : "Наша команда",
-    "subtitle" : "Наша команда - талантливые\n и преданные профессионалы,\n стремящиеся к инновациям и\n развитию IT-сектора в\nУзбекистане. Вместе мы\n создаем будущее,\n основанное на знаниях, опыте\n и коллективной энергии.\nУзнайте больше о людях,\nделающих UZIT Group\nособенным",
-    "button" : "О команде"
-
+  "teachers": {
+    "title": "Наши учителя",
+    "teacher1": {
+      "name": "Рома",
+      "lastName": "Садыков",
+      "skill": "Учитель по фронтенд разработку"
+    },
+    "teacher2": {
+      "name": "Диёр",
+      "lastName": "Хасанов",
+      "skill": "Учитель по фронтенд разработку"
+    },
+    "teacher3": {
+      "name": "Рамизжон",
+      "lastName": "Зиёдуллаев",
+      "skill": "Учитель по бекенд разработку"
+    },
+    "teacher4": {
+      "name": "Азиз",
+      "lastName": "Амонов",
+      "skill": "Учитель по математику"
+    },
+    "teacher5": {
+      "name": "Шахноза",
+      "lastName": "Назарова",
+      "skill": "Учитель по англиского языка"
+    },
+    "teacher6": {
+      "name": "Сабина",
+      "lastName": "Ходжиева",
+      "skill": "Учитель по русского языка"
+    },
+    "teacher7": {
+      "name": "Тимур",
+      "lastName": "Газиев",
+      "skill": "Учитель по Маркетплейса"
+    }
   },
   "goals" : {
     "title" : "Цели",
