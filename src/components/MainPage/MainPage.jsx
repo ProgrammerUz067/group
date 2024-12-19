@@ -28,7 +28,7 @@ export default function MainPage() {
   }, []);
 
   return (
-    <div className={`${style.mainPage} ${showMain ? "opacity-[0%]" : ""}`}>
+    <div className={`${style.mainPage}`}>
       <div className="w-[50%] z-10">
         {" "}
         <Reveal delay="8.8">
