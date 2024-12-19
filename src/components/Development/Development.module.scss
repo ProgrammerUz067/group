@@ -1,55 +1,55 @@
-.courses{
+.courses {
   background: #7d7d7d;
   color: #f2f2f2;
   padding: 0 40px;
-  .tit{
+  .tit {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 54px;
     font-weight: 700;
   }
-  .wrapper{
+  .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
-    .course{
+    .course {
       width: 350px;
       height: 450px;
       color: #000;
       background: #fff;
       padding: 30px 30px;
-      .title{
+      .title {
         font-size: 35px;
         font-weight: 700;
         margin-bottom: 15px;
       }
-      .duration{
+      .duration {
         color: #7d7d7d;
       }
-      .price{
+      .price {
         font-weight: 700;
       }
-      .des{
+      .des {
         font-size: 13px;
       }
-      .imgWrapper{
+      .imgWrapper {
         margin-top: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
       }
-      .img{
+      .img {
         margin-top: 15px;
         width: 150px;
         height: 150px;
       }
-      .imgy{
+      .imgy {
         height: 170px;
         margin-top: 8px;
       }
-      .imgx{
+      .imgx {
         // width: 250px;
         height: 130px;
       }

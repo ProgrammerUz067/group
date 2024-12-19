@@ -19,7 +19,7 @@ export default function Development() {
 
   return (
     <section className={styles.courses}>
-      <h1 className={styles.tit}>{t('courses.title')}</h1>
+      <h1 className={styles.tit}>{t("courses.title")}</h1>
       <div className={styles.wrapper}>
         <div className={styles.course}>
           <div className={styles.textWrapper}>
