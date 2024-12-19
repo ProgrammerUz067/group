@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Questions.module.scss';
-import Form from './Form';
 import { useTranslation } from 'react-i18next';
 import TextUp from '../Reveal/TextUp';
 import Reveal from '../Reveal/Reveal';
