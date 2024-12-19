@@ -2,7 +2,7 @@ import React from 'react';
 import MainPage from '../../components/MainPage/MainPage';
 import About from '../../components/About/About';
 import Team from '../../components/Team/Team';
-import Stages from '../../components/Stages/Stages';
+
 import Development from '../../components/Development/Development';
 import FAQ from '../../components/FAQ/FAQ';
 import Questions from '../../components/Questions/Questions';
@@ -18,7 +18,6 @@ export default function Home() {
       <FAQ />
       <Questions />
       <Contacts />
-      {/* <Sphere2/> */}
     </div>
   );
 }
