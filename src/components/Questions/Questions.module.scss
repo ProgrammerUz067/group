@@ -1,96 +1,54 @@
 .questions {
-  padding-top: 25px;
-  height: 783px;
-  background: linear-gradient(180deg, #6b8c49 5%, #262626 55%);
-  .form {
-    width: 461px;
-    display: flex;
-    flex-direction: column;
+  background: #fff;
+  color: #222;
+  padding: 30px 40px;
+  padding-bottom: 250px;
+  .modul {
     margin-top: 50px;
-    gap: 15px;
-    input {
-      padding: 15px;
-      font-size: 29px;
-      font-weight: 500;
-      height: 70px;
-      border: 1px solid #6b8c49;
-      outline: none;
-      background: #262626;
-      box-shadow: -10px 10px 10px black;
+    padding: 20px 30px;
+    -webkit-box-shadow: 14px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 14px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 14px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    top: 3500px;
+    right: 50px;
+    left: 50px;
+    border-radius: 15px;
+    .textWrapper{
+      width: 45%;
+      padding: 50px;
     }
-    textarea {
-      resize: none;
-      height: 150px;
-      border: 1px solid #6b8c49;
-      outline: none;
-      background: #262626;
-      font-size: 29px;
-      font-weight: 500;
-      padding: 15px;
-      box-shadow: -10px 10px 10px black;
-
-      &::placeholder {
-        opacity: 50%;
+    .title{
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .subtitle{
+      margin-top: 15px;
+    }
+    .form{
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      input{
+        outline: none;
+        border: none;
+        padding: 10px 25px;
+        padding-right: 400px;
+        background: #f1f1f1;
+        border-radius: 5px;
+      }
+      .btn{
+        background: #06D53B;
+        padding: 10px 30px;
+        width: 300px;
+        border-radius: 15px;
       }
     }
-
-    input::placeholder {
-      opacity: 50%;
-    }
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-    }
-  }
-}
-@media screen and (min-width: 2250px){
-  .questions {
-    max-width: 2250px;
-    margin: auto;
-  }
-} 
-@media screen and (max-width: 960px) {
-  .questions {
-    padding-top: 0;
-    img {
-      object-fit: contain;
-      width: 338px;
-    }
-  }
-}
-
-@media screen and (max-width: 863px) {
-  .questions {
-    height: fit-content;
-    div{
-      padding-right: 0;
-    }
-    h2{
-      font-size: 54px;
-      text-align: center;
-    }
-    .form {
-      margin-top: 0px;
-      width: 100%;
-      margin-bottom: 20px;
-      button {
-        width: 100% !important;
-      }
-    }
-    img {
-      display: none;
-    }
-    p {
-      margin: 0 auto;
-      width: 90%;
-      text-align: center;
-    }
-  }
-}
-// object-fit: contain;
-// width: 338px;
-@media screen and (max-width: 720px) {
-  .questions {
-   
   }
 }

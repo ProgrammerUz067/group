@@ -10,22 +10,19 @@ export default function Questions() {
   
   return (
     <section id='questions' className={styles.questions}>
-      <div className="w-[90%] m-auto ques_container">
-      <TextUp delay='0.25'>
-          <h2 className="text-[90px] font-bold">{t('questions.title')}</h2>
-        </TextUp>
+      <div className={styles.modul}>
+        <div className={styles.textWrapper}>
+          <h1 className={styles.title}>{t('contact.title')}</h1>
+          <p className={styles.subtitle}>{t('contact.subtitle')}</p>
+        </div>
 
-        <div className="flex m-auto justify-between pr-[50px] ques_form">
-          <Reveal>
-            <Form />
-          </Reveal>
-
-          <img src="./qr-code.png" alt="qrcode" />
+        <div className={styles.form}>
+          <input type="text" placeholder={t('contact.input1')} />
+          <input type="text" placeholder={t('contact.input2')} />
+          <input type="number" placeholder={t('contact.input3')} />
+          <button className={styles.btn}>Oтправить</button>
         </div>
       </div>
-      <TextUp>
-        <p className="text-center mt-[70px] font-bold text-[18px]">{t('questions.subtitle')}</p>
-      </TextUp>
     </section>
   );
 }

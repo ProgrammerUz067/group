@@ -4,7 +4,6 @@ import About from '../../components/About/About';
 import Team from '../../components/Team/Team';
 
 import Development from '../../components/Development/Development';
-import FAQ from '../../components/FAQ/FAQ';
 import Questions from '../../components/Questions/Questions';
 import Contacts from '../../components/Contacts/Contacts';
 
@@ -15,7 +14,6 @@ export default function Home() {
       <About />
       <Team />
       <Development />
-      <FAQ />
       <Questions />
       <Contacts />
     </div>
