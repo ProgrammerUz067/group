@@ -15,7 +15,7 @@ export default function MainPage() {
           <p className={style.subtitle}>{t("main.main-text")}</p>
         
       </div>
-      <div className="w-[50%] z-10 mt-[100px] ml-[100px]">
+      <div className="w-[50%] z-10 mt-[100px] ml-[100px] img">
         <img src={img} alt="img" />
       </div>
     </div>
