@@ -38,3 +38,23 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px){
+  .team{
+    .card:nth-child(3){
+      margin-top: 150px;
+    }
+    .card:nth-child(4){
+      margin-top: 150px;
+    }
+    .card:nth-child(1){
+      margin-top: 50px;
+    }
+    .card:nth-child(2){
+      margin-top: 50px;
+    }
+    .wrapper{
+      padding: 0 50px;
+    }
+  }
+}
