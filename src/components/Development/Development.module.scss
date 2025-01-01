@@ -57,3 +57,23 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px){
+  .courses{
+    height: 2450px;
+    .tit{
+      padding-top: 100px;
+    }
+    .course:nth-child(1){
+      margin-top: 80px;
+    }
+    .course:nth-child(2){
+      margin-top: 80px;
+    }
+    .course:nth-child(9){
+      display: hidden;
+      overflow: hidden;
+      opacity: 0;
+    }
+  }
+}
